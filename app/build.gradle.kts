@@ -45,12 +45,11 @@ android {
 repositories {
     google()
     mavenCentral()
-    maven(url = "https://jitpack.io")
 }
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.24")
-    implementation("eu.kanade.tachiyomi:source-api:1.6")
+    implementation("org.tachiyomi:source-api:1.1")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("org.jsoup:jsoup:1.17.2")
 }
