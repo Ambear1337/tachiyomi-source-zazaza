@@ -1,0 +1,2 @@
+-dontwarn org.jsoup.**
+-dontwarn okhttp3.**
